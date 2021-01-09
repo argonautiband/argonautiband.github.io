@@ -24,7 +24,7 @@ var dictionaryImages = {};
 dictionaryImages["live"] = 
 [
     {
-        "file": "a.jpg",
+        "file": "dsc0131.jpg",
         "description": "Luca - Cortona 2017",
         "imgtype": ""
     },
