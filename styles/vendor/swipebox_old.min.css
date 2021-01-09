@@ -95,7 +95,7 @@ html.swipebox-html.swipebox-touch {
                 }
 
     #swipebox-slider .slide-loading {
-        background: url(../img/loader.gif) center center no-repeat
+        background: url(/img/loader.gif) center center no-repeat
     }
 
 #swipebox-bottom-bar, #swipebox-top-bar {
