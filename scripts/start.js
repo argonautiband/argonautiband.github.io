@@ -24,42 +24,42 @@ var dictionaryImages = {};
 dictionaryImages["live"] = 
 [
     {
-        "file": "_dsc0131.jpg",
+        "file": "dsc0131.jpg",
         "description": "Luca - Cortona 2017",
         "imgtype": ""
     },
     {
-        "file": "_dsc0183.jpg",
+        "file": "dsc0183.jpg",
         "description": "Marco - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_dsc0226.jpg",
+        "file": "dsc0226.jpg",
         "description": "Gianluca - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_dsc0267.jpg",
+        "file": "dsc0267.jpg",
         "description": "Marco - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_dsc0365.jpg",
+        "file": "dsc0365.jpg",
         "description": "Argonauti - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_dsc0135.jpg",
+        "file": "dsc0135.jpg",
         "description": "Argonauti - Cortona 2017",
         "imgtype": ""
     },
     {
-        "file": "_dsc0245.jpg",
+        "file": "dsc0245.jpg",
         "description": "Fabio - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_dsc0294.jpg",
+        "file": "dsc0294.jpg",
         "description": "Daniele - Cortona 2017",
         "imgtype": "small"
     },
@@ -178,7 +178,7 @@ dictionaryImages["stories"] =
         "imgtype": ""
     },
     {
-        "file": "[2009] argonauti live @ camucia - marco.jpG",
+        "file": "[2009] argonauti live @ camucia - marco.jpg",
         "description": "Marco - Camucia 2009",
         "imgtype": "small"
     },
