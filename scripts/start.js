@@ -24,72 +24,72 @@ var dictionaryImages = {};
 dictionaryImages["live"] = 
 [
     {
-        "file": "_DSC0131.jpg",
+        "file": "_dsc0131.jpg",
         "description": "Luca - Cortona 2017",
         "imgtype": ""
     },
     {
-        "file": "_DSC0183.jpg",
+        "file": "_dsc0183.jpg",
         "description": "Marco - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_DSC0226.jpg",
+        "file": "_dsc0226.jpg",
         "description": "Gianluca - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_DSC0267.jpg",
+        "file": "_dsc0267.jpg",
         "description": "Marco - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_DSC0365.jpg",
+        "file": "_dsc0365.jpg",
         "description": "Argonauti - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_DSC0135.jpg",
+        "file": "_dsc0135.jpg",
         "description": "Argonauti - Cortona 2017",
         "imgtype": ""
     },
     {
-        "file": "_DSC0245.jpg",
+        "file": "_dsc0245.jpg",
         "description": "Fabio - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "_DSC0294.jpg",
+        "file": "_dsc0294.jpg",
         "description": "Daniele - Cortona 2017",
         "imgtype": "small"
     },
     {
-        "file": "DV 2012/298994986874988.jpg",
+        "file": "dv 2012/298994986874988.jpg",
         "description": "Luca - DV 2012",
         "imgtype": "small"
     },
     {
-        "file": "DV 2012/298994703541683.jpg",
+        "file": "dv 2012/298994703541683.jpg",
         "description": "Marco - DV 2012",
         "imgtype": "small"
     },
     {
-        "file": "DV 2012/298994486875038.jpg",
+        "file": "dv 2012/298994486875038.jpg",
         "description": "Gianluca - DV 2012",
         "imgtype": "small"
     },
     {
-        "file": "DV 2012/298994303541723.jpg",
+        "file": "dv 2012/298994303541723.jpg",
         "description": "Fabio - DV 2012",
         "imgtype": "small"
     },
     {
-        "file": "DV 2012/298995180208302.jpg",
+        "file": "dv 2012/298995180208302.jpg",
         "description": "Daniele - DV 2012",
         "imgtype": "small"
     },
     {
-        "file": "2014 Bierfest/[2014] BierFest.jpg",
+        "file": "2014 bierfest/[2014] bierfest.jpg",
         "description": "Argonauti - BierFest 2012",
         "imgtype": "small"
     },
@@ -124,7 +124,7 @@ dictionaryImages["live"] =
         "imgtype": "small"
     },
     {
-        "file": "2014 subway/i-phone 1 301.JPG",
+        "file": "2014 subway/i-phone 1 301.jpg",
         "description": "Argonauti - Subway 2014",
         "imgtype": "small"
     },
@@ -153,62 +153,62 @@ dictionaryImages["live"] =
 dictionaryImages["stories"] =
 [
     {
-        "file": "[2004] Argonauti live @ festa della donna Fratticciola.JPG",
+        "file": "[2004] argonauti live @ festa della donna fratticciola.jpg",
         "description": "Festa della donna Fratticciola 2004",
         "imgtype": "small"
     },
     {
-        "file": "[2005] Argonauti live @ Aliby.JPG",
+        "file": "[2005] argonauti live @ aliby.jpg",
         "description": "Aliby 2005",
         "imgtype": "small"
     },
     {
-        "file": "[2006] Argonauti live @ Carnevale Moiano.JPG",
+        "file": "[2006] argonauti live @ carnevale moiano.jpg",
         "description": "Carnevale Moiano 2006",
         "imgtype": "small"
     },
     {
-        "file": "[2008] Argonauti live @ Route 66.JPG",
+        "file": "[2008] argonauti live @ route 66.jpg",
         "description": "Route 66",
         "imgtype": "small"
     },
     {
-        "file": "[2009] Argonauti Live @ Camucia - Luca.JPG",
+        "file": "[2009] argonauti live @ camucia - luca.jpg",
         "description": "Luca - Camucia 2009",
         "imgtype": ""
     },
     {
-        "file": "[2009] Argonauti Live @ Camucia - Marco.JPG",
+        "file": "[2009] argonauti live @ camucia - marco.jpG",
         "description": "Marco - Camucia 2009",
         "imgtype": "small"
     },
     {
-        "file": "[2009] Argonauti Live @ Camucia - Fabio.JPG",
+        "file": "[2009] argonauti live @ camucia - fabio.jpg",
         "description": "Fabio - Camucia 2009",
         "imgtype": "small"
     },
     {
-        "file": "[2009] Argonauti Live @ Camucia.JPG",
+        "file": "[2009] argonauti live @ camucia.jpg",
         "description": "Camucia 2009",
         "imgtype": ""
     },
     {
-        "file": "[2009] Argonauti Live @ Camucia - Dani.JPG",
+        "file": "[2009] argonauti live @ camucia - dani.jpg",
         "description": "Dani - Camucia 2009",
         "imgtype": "small"
     },
     {
-        "file": "[2009] Argonauti Live @ Camucia - Fede.JPG",
+        "file": "[2009] argonauti live @ camucia - fede.jpg",
         "description": "Fede - Camucia 2009",
         "imgtype": "small"
     },
     {
-        "file": "[2009] Argonauti Live @ Camucia - Gianlu.JPG",
+        "file": "[2009] argonauti live @ camucia - gianlu.jpg",
         "description": "Gianlu - Camucia 2009",
         "imgtype": "small"
     },
     {
-        "file": "Foto Satomi.jpg",
+        "file": "foto satomi.jpg",
         "description": "Federico \"Satomi\" - Velvet (Carnevale) 2009",
         "imgtype": "small"
     },
@@ -223,7 +223,7 @@ dictionaryImages["stories"] =
         "imgtype": "small"
     },
     {
-        "file": "IMG_3813.JPG",
+        "file": "img_3813.jpg",
         "description": "Argonauti Famiglia Addams 2011",
         "imgtype": "small"
     },
@@ -233,7 +233,7 @@ dictionaryImages["stories"] =
         "imgtype": ""
     },
     {
-        "file": "IMG_3811.JPG",
+        "file": "img_3811.jpg",
         "description": "Argonauti Famiglia Addams 2011",
         "imgtype": ""
     },
@@ -268,27 +268,27 @@ dictionaryImages["stories"] =
         "imgtype": "small"
     },
     {
-        "file": "[2013] Argonauti Live @ Club 84 (Halloween).JPG",
+        "file": "[2013] argonauti live @ club 84 (halloween).jpg",
         "description": "Club 84 (Halloween) 2013",
         "imgtype": ""
     },
     {
-        "file": "[2014] Argonauti Live @ Buskers Ferrara - Arrivo.JPG",
+        "file": "[2014] argonauti live @ buskers ferrara - arrivo.jpg",
         "description": "Ferrara Buskers 2014",
         "imgtype": "small"
     },
     {
-        "file": "[2014] Argonauti Live @ Buskers Ferrara - Pass.JPG",
+        "file": "[2014] argonauti live @ buskers ferrara - pass.jpg",
         "description": "Pass - Ferrara Buskers 2014",
         "imgtype": "small"
     },
     {
-        "file": "Argonauti Live @ Buskers Ferrara.jpg",
+        "file": "argonauti live @ buskers ferrara.jpg",
         "description": "Live - Ferrara Buskers 2014",
         "imgtype": ""
     },
     {
-        "file": "[2014] Buskers.jpg",
+        "file": "[2014] buskers.jpg",
         "description": "Live - Ferrara Buskers 2014",
         "imgtype": "small"
     },
@@ -298,17 +298,17 @@ dictionaryImages["stories"] =
         "imgtype": "small"
     },
     {
-        "file": "IMG_3307.JPG",
+        "file": "img_3307.jpg",
         "description": "Pellicano 2012",
         "imgtype": "small"
     },
     {
-        "file": "[2016] Mengrigi.jpg",
+        "file": "[2016] mengrigi.jpg",
         "description": "Mengrigi 2016",
         "imgtype": "small"
     },
     {
-        "file": "IMG-20170608-WA0003.jpg",
+        "file": "img-20170608-wa0003.jpg",
         "description": "Cantine Baldetti 2017",
         "imgtype": "small"
     }
@@ -317,12 +317,12 @@ dictionaryImages["stories"] =
 dictionaryImages["matrimoni"] =
 [
     {
-        "file": "1087_Wedding Marco e Daniela_IMG_1423.jpg",
+        "file": "1087_wedding marco e daniela_img_1423.jpg",
         "description": "Marco",
         "imgtype": ""
     },
     {
-        "file": "1016_Wedding Marco e Daniela_IMG_1394.jpg",
+        "file": "1016_wedding marco e daniela_img_1394.jpg",
         "description": "Daniele",
         "imgtype": "small"
     },
@@ -347,22 +347,22 @@ dictionaryImages["matrimoni"] =
         "imgtype": ""
     },
     {
-        "file": "Argo matrimonio villa petrischio.jpg",
+        "file": "argo matrimonio villa petrischio.jpg",
         "description": "Matrimonio villa",
         "imgtype": "small"
     },
     {
-        "file": "IMG-20160619-WA0006.jpg",
+        "file": "img-20160619-wa0006.jpg",
         "description": "Argonauti matrimonio",
         "imgtype": "small"
     },
     {
-        "file": "IMG-20161006-WA0004.jpg",
+        "file": "img-20161006-wa0004.jpg",
         "description": "Argo from drone",
         "imgtype": "small"
     },
     {
-        "file": "Argo matrimonio.jpg",
+        "file": "argo matrimonio.jpg",
         "description": "Argo matrimonio",
         "imgtype": "small"
     },
@@ -372,7 +372,7 @@ dictionaryImages["matrimoni"] =
         "imgtype": "small"
     },
     {
-        "file": "IMG-20170715-WA0061.jpg",
+        "file": "img-20170715-wa0061.jpg",
         "description": "Batteria",
         "imgtype": "small"
     },
@@ -381,32 +381,32 @@ dictionaryImages["matrimoni"] =
 dictionaryImages["etc"] =
 [
     {
-        "file": "Argo Simpson Logo.jpg",
+        "file": "argo simpson logo.jpg",
         "description": "Argo Simpsons",
         "imgtype": "small"
     },
     {
-        "file": "Argonauti Carrello 2.JPG",
+        "file": "argonauti carrello 2.jpg",
         "description": "Carrello Argonauti",
         "imgtype": ""
     },
     {
-        "file": "I Love Argonauti foonky 3.jpg",
+        "file": "i love argonauti foonky 3.jpg",
         "description": "I Love Argonauti",
         "imgtype": "small"
     },
     {
-        "file": "[2005] Copertina CD.jpg",
+        "file": "[2005] copertina cd.jpg",
         "description": "Copertina CD 2005",
         "imgtype": "small"
     },
     {
-        "file": "IMG-20170930-WA0013-01.jpg",
+        "file": "img-20170930-wa0013-01.jpg",
         "description": "Argo @ the lake",
         "imgtype": "small"
     },
     {
-        "file": "IMG-20170429-WA0010.jpg",
+        "file": "img-20170429-wa0010.jpg",
         "description": "Argo stylized",
         "imgtype": "small"
     },
@@ -416,12 +416,12 @@ dictionaryImages["etc"] =
         "imgtype": "small"
     },
     {
-        "file": "Argonauti_Locandina.jpg",
+        "file": "argonauti_locandina.jpg",
         "description": "Locandina",
         "imgtype": "small"
     },
     {
-        "file": "IMG_0792.JPG",
+        "file": "img_0792.jpg",
         "description": "Baby Argo",
         "imgtype": "small"
     },
@@ -431,7 +431,7 @@ dictionaryImages["etc"] =
         "imgtype": "small"
     },
     {
-        "file": "IMG_1877.JPG",
+        "file": "img_1877.jpg",
         "description": "Logo on the wall",
         "imgtype": "small"
     }
@@ -452,7 +452,7 @@ dictionaryVideo["video"] =
         "bigpath": "https://www.youtube.com/watch?v=cck_VlzN9rc&feature=youtu.be"
     },
     {
-        "file": "Argonauti Live @ Buskers Ferrara.jpg",
+        "file": "argonauti live @ buskers ferrara.jpg",
         "description": "Argonauti live @ Ferrara Buskers",
         "imgtype": "",
         "bigpath": "https://www.youtube.com/watch?v=MNUk6odTChw"
@@ -477,31 +477,31 @@ dictionarySongs["songs"] =
     [
         {
             "title": "La prima cosa bella (Nicola Di Bari)",
-        "file": "La prima cosa bella.mp3"
+        "file": "la prima cosa bella.mp3"
         },
         {
             "title": "L&apos;isola che non c&apos;&#232; (Edoardo Bennato)",
-            "file": "L&apos;isola che non c&apos;&#232;.mp3"
+            "file": "l&apos;isola che non c&apos;&#232;.mp3"
     },
     {
         "title": "Piccola stella senza cielo (Ligabue)",
-        "file": "Piccola stella.mp3"
+        "file": "piccola stella.mp3"
     },
     {
         "title": "Messico e nuvole (Giuliano Palma)",
-        "file": "Messico e Nuvole.mp3"
+        "file": "messico e nuvole.mp3"
     },
     {
         "title": "Medley anni &apos;60",
-        "file": "Anni 60.mp3"
+        "file": "anni 60.mp3"
     },
     {
         "title": "Medley donne",
-        "file": "Donne.mp3"
+        "file": "donne.mp3"
     },
     {
         "title": "Medley napoletano",
-        "file": "Napoli.mp3"
+        "file": "napoli.mp3"
     },
     {
         "title": "Su di noi (Pupo)",
@@ -513,39 +513,39 @@ dictionarySongs["songs"] =
     },
     {
         "title": "Medley Battisti",
-        "file": "Battisti.mp3"
+        "file": "battisti.mp3"
     },
     {
         "title": "Per colpa di chi (Zucchero)",
-        "file": "Per colpa di chi.mp3"
+        "file": "per colpa di chi.mp3"
     },
     {
         "title": "Devil in me (Zucchero)",
-        "file": "Devil in me.mp3"
+        "file": "devil in me.mp3"
     },
     {
         "title": "Medley rock &amp; roll",
-        "file": "Rock n Roll.mp3"
+        "file": "rock n roll.mp3"
     },
     {
         "title": "Ti porto via con me (Jovanotti)",
-        "file": "Ti porto via con me.mp3"
+        "file": "ti porto via con me.mp3"
     },
     {
         "title": "Me so &apos;mbriacato (Mannarino)",
-        "file": "Me so mbriacato.mp3"
+        "file": "me so mbriacato.mp3"
     },
     {
         "title": "Scetate Vaj&#242; (Mannarino)",
-        "file": "Scetate vajo.mp3"
+        "file": "scetate vajo.mp3"
     },
     {
         "title": "Se mi rilasso collasso (Bandabard&#242;)",
-        "file": "Se mi rilasso collasso.mp3"
+        "file": "se mi rilasso collasso.mp3"
     },
     {
         "title": "La vita com&apos;&#232; (Max Gazz&#232;)",
-        "file": "La vita com&apos;&#232;.mp3"
+        "file": "la vita com&apos;&#232;.mp3"
     },
     {
         "title": "Occidentali&apos;s karma (Francesco Gabbani)",
@@ -557,7 +557,7 @@ dictionarySongs["songs"] =
     },
     {
         "title": "Buonasera signorina (Fred Buscaglione)",
-        "file": "Buonasera signorina.mp3"
+        "file": "buonasera signorina.mp3"
     },
     {
         "title": "Medley cartoni animati",
@@ -565,19 +565,19 @@ dictionarySongs["songs"] =
     },
     {
         "title": "Tanta voglia di lei (Pooh)",
-        "file": "Tanta voglia di lei.mp3"
+        "file": "tanta voglia di lei.mp3"
     },
     {
         "title": "Pensiero (Pooh)",
-        "file": "Pensiero.mp3"
+        "file": "pensiero.mp3"
     },
     {
         "title": "A mano a mano (Rino Gaetano)",
-        "file": "A mano a mano.mp3"
+        "file": "a mano a mano.mp3"
     },
     {
         "title": "Ricominciamo (Apr&#232;s La Classe)",
-        "file": "Ricominciamo.mp3"
+        "file": "ricominciamo.mp3"
     },
     {
         "title": "... e tanto altro",
