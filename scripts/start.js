@@ -480,23 +480,23 @@ dictionarySongs["fullSongs"] =
     [
         {
             "title": "Senza parole (Vasco Rossi)",
-            "file": "Senza Parole full.mp3"
+            "file": "senza parole full.mp3"
         },
         {
             "title": "Buonasera signorina (Fred Buscaglione)",
-            "file": "Buona sera signorina full.mp3"
+            "file": "buona sera signorina full.mp3"
         },        
         {
             "title": "Sei un mito (883)",
-            "file": "Sei un mito full.mp3"
+            "file": "sei un mito full.mp3"
         },
         {
             "title": "Nessun dolore (Lucio Battisti)",
-            "file": "Nessun Dolore full.mp3"
+            "file": "nessun dolore full.mp3"
         },                        
         {
             "title": "Per colpa di chi (Zucchero)",
-            "file": "Funky Gallo full.mp3"
+            "file": "funky gallo full.mp3"
         }
     ];
 
@@ -508,15 +508,15 @@ dictionarySongs["fullSongs"] =
             },        
             {
                 "title": "Senza parole (Vasco Rossi)",
-                "file": "Senza Parole.mp3"
+                "file": "senza parole.mp3"
             },
             {
                 "title": "Sei un mito (883)",
-                "file": "Sei un mito.mp3"
+                "file": "sei un mito.mp3"
             },
             {
                 "title": "Nessun dolore (Lucio Battisti)",
-                "file": "Nessun dolore.mp3"
+                "file": "nessun dolore.mp3"
             },                        
             {
                 "title": "Per colpa di chi (Zucchero)",
