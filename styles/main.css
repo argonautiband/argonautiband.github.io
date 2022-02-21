@@ -4789,3 +4789,9 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 {
     color:white;
 }
+
+.fa-play,
+.fa-pause
+{
+    cursor: pointer;
+}

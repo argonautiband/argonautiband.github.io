@@ -274,7 +274,7 @@ $(window).on("load", function () {
 
   // filter items on button click
     $('.filters').on('click', 'li', function () {
-        $container.isotope({ filter: $('[data-filter]').first().attr('data-filter') }); //Workaround perché altrimenti la sezione matrimoni spagina
+        $container.isotope({ filter: $('[data-filter]').first().attr('data-filter') }); //Workaround perchï¿½ altrimenti la sezione matrimoni spagina
         var filterValue = $(this).attr('data-filter');
         $container.isotope({ filter: filterValue });
   });
@@ -388,7 +388,9 @@ $(function () {
     //    $('i[data-audioplayerid="audioplayer0"]').first().removeClass().addClass('fa fa-play');
     //};
     $("[id^='audioplayer']").on("ended", function () {
-        $('i[data-audioplayerid="' + $(this).attr('id') + '"]').first().removeClass().addClass('fa fa-play');
+        $('i[data-audioplayerid="' + $(this).attr('id') + '"]').first().removeClass('fa fa-pause').addClass('fa fa-play');
+        //Hide player
+        $(this).hide(500);
     });
 });
 
@@ -399,16 +401,23 @@ function audioPlay(elem) {
         //pausa per tutti i player
         $('i.fa.fa-pause').each(function () {
             $('#' + $(this).data("audioplayerid")).trigger("pause");
-            $(this).removeClass().addClass('fa fa-play');
+            $('#' + $(this).data("audioplayerid")).hide(500);            
+            $(this).removeClass('fa fa-pause').addClass('fa fa-play');
         });
-        elem.removeClass().addClass('fa fa-pause');
+        elem.removeClass('fa fa-play').addClass('fa fa-pause');
+        //Show player
+        if (elem.hasClass('fa-play-full'))
+        {
+          $('#' + audioplayerid).show(500);
+        }
         $('#' + audioplayerid).trigger("play");
     }
     else {
         //pausa per tutti i player
         $('i.fa.fa-pause').each(function () {
             $('#' + $(this).data("audioplayerid")).trigger("pause");
-            $(this).removeClass().addClass('fa fa-play');
+            $('#' + $(this).data("audioplayerid")).hide(500);
+            $(this).removeClass('fa fa-pause').addClass('fa fa-play');
         });
     }
 }

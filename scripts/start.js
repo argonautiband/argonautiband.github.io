@@ -15,8 +15,11 @@ var template_video = "<div class='thumbnail #imgtype# video'>" +
 
 var template_song = '<li><span>#title#</span>&nbsp;&nbsp;&nbsp;#player#</li'
 
-var template_player = '<audio id="#playerid#" controls controlsList="nodownload" preload="none" style="display:none"><source src="#file#" type="audio/mpeg"></audio>' + 
-    '<i class="fa fa-play" style="color: #ed2b45" data-audioplayerid="#playerid#"></i>';
+//var template_player = '<audio id="#playerid#" controls controlsList="nodownload" preload="none" style="display:none"><source src="#file#" type="audio/mpeg"></audio>' + 
+    //'<i class="fa fa-play" style="color: #ed2b45" data-audioplayerid="#playerid#"></i>';
+
+var template_player = '<i class="fa fa-play fa-play-full" style="color: #ed2b45" data-audioplayerid="#playerid#"></i><br/>' + 
+    '<audio id="#playerid#" controls controlsList="nodownload" preload="none" style="display:none"><source src="#file#" type="audio/mpeg"></audio>';
 
 var base_image_path = '/images/argonauti/gallery/';
 
@@ -473,148 +476,185 @@ dictionaryVideo["video"] =
 
 var base_audio_path = '/mp3/';
 var dictionarySongs = {};
-dictionarySongs["songs"] =
+dictionarySongs["fullSongs"] =
     [
         {
-            "title": "La prima cosa bella (Nicola Di Bari)",
-        "file": "la prima cosa bella.mp3"
+            "title": "Senza parole (Vasco Rossi)",
+            "file": "Senza Parole full.mp3"
         },
         {
-            "title": "L&apos;isola che non c&apos;&#232; (Edoardo Bennato)",
-            "file": "l&apos;isola che non c&apos;&#232;.mp3"
-    },
-    {
-        "title": "Piccola stella senza cielo (Ligabue)",
-        "file": "piccola stella.mp3"
-    },
-    {
-        "title": "Messico e nuvole (Giuliano Palma)",
-        "file": "messico e nuvole.mp3"
-    },
-    {
-        "title": "Medley anni &apos;60",
-        "file": "anni 60.mp3"
-    },
-    {
-        "title": "Medley donne",
-        "file": "donne.mp3"
-    },
-    {
-        "title": "Medley napoletano",
-        "file": "napoli.mp3"
-    },
-    {
-        "title": "Su di noi (Pupo)",
-        "file": ""
-    },
-    {
-        "title": "Gelato al cioccolato (Pupo)",
-        "file": ""
-    },
-    {
-        "title": "Medley Battisti",
-        "file": "battisti.mp3"
-    },
-    {
-        "title": "Per colpa di chi (Zucchero)",
-        "file": "per colpa di chi.mp3"
-    },
-    {
-        "title": "Devil in me (Zucchero)",
-        "file": "devil in me.mp3"
-    },
-    {
-        "title": "Medley rock &amp; roll",
-        "file": "rock n roll.mp3"
-    },
-    {
-        "title": "Ti porto via con me (Jovanotti)",
-        "file": "ti porto via con me.mp3"
-    },
-    {
-        "title": "Me so &apos;mbriacato (Mannarino)",
-        "file": "me so mbriacato.mp3"
-    },
-    {
-        "title": "Scetate Vaj&#242; (Mannarino)",
-        "file": "scetate vajo.mp3"
-    },
-    {
-        "title": "Se mi rilasso collasso (Bandabard&#242;)",
-        "file": "se mi rilasso collasso.mp3"
-    },
-    {
-        "title": "La vita com&apos;&#232; (Max Gazz&#232;)",
-        "file": "la vita com&apos;&#232;.mp3"
-    },
-    {
-        "title": "Occidentali&apos;s karma (Francesco Gabbani)",
-        "file": ""
-    },
-    {
-        "title": "Svalutation (Francesco Gabbani)",
-        "file": ""
-    },
-    {
-        "title": "Buonasera signorina (Fred Buscaglione)",
-        "file": "buonasera signorina.mp3"
-    },
-    {
-        "title": "Medley cartoni animati",
-        "file": ""
-    },
-    {
-        "title": "Tanta voglia di lei (Pooh)",
-        "file": "tanta voglia di lei.mp3"
-    },
-    {
-        "title": "Pensiero (Pooh)",
-        "file": "pensiero.mp3"
-    },
-    {
-        "title": "A mano a mano (Rino Gaetano)",
-        "file": "a mano a mano.mp3"
-    },
-    {
-        "title": "Ricominciamo (Apr&#232;s La Classe)",
-        "file": "ricominciamo.mp3"
-    },
-    {
-        "title": "... e tanto altro",
-        "file": ""
-    }
-]
+            "title": "Buonasera signorina (Fred Buscaglione)",
+            "file": "Buona sera signorina full.mp3"
+        },        
+        {
+            "title": "Sei un mito (883)",
+            "file": "Sei un mito full.mp3"
+        },
+        {
+            "title": "Nessun dolore (Lucio Battisti)",
+            "file": "Nessun Dolore full.mp3"
+        },                        
+        {
+            "title": "Per colpa di chi (Zucchero)",
+            "file": "Funky Gallo full.mp3"
+        }
+    ];
+
+    dictionarySongs["songs"] =
+        [
+            {
+                "title": "Buonasera signorina (Fred Buscaglione)",
+                "file": "buonasera signorina.mp3"
+            },        
+            {
+                "title": "Senza parole (Vasco Rossi)",
+                "file": "Senza Parole.mp3"
+            },
+            {
+                "title": "Sei un mito (883)",
+                "file": "Sei un mito.mp3"
+            },
+            {
+                "title": "Nessun dolore (Lucio Battisti)",
+                "file": "Nessun dolore.mp3"
+            },                        
+            {
+                "title": "Per colpa di chi (Zucchero)",
+                "file": "per colpa di chi.mp3"
+            },
+            {
+                "title": "La prima cosa bella (Nicola Di Bari)",
+                "file": "la prima cosa bella.mp3"
+            },
+            {
+                "title": "L&apos;isola che non c&apos;&#232; (Edoardo Bennato)",
+                "file": "l&apos;isola che non c&apos;&#232;.mp3"
+            },
+            {
+                "title": "Piccola stella senza cielo (Ligabue)",
+                "file": "piccola stella.mp3"
+            },
+            {
+                "title": "Messico e nuvole (Giuliano Palma)",
+                "file": "messico e nuvole.mp3"
+            },
+            {
+                "title": "Medley anni &apos;60",
+                "file": "anni 60.mp3"
+            },
+            {
+                "title": "Medley donne",
+                "file": "donne.mp3"
+            },
+            {
+                "title": "Medley napoletano",
+                "file": "napoli.mp3"
+            },
+            {
+                "title": "Su di noi (Pupo)",
+                "file": ""
+            },
+            {
+                "title": "Gelato al cioccolato (Pupo)",
+                "file": ""
+            },
+            {
+                "title": "Medley Battisti",
+                "file": "battisti.mp3"
+            },
+            {
+                "title": "Devil in me (Zucchero)",
+                "file": "devil in me.mp3"
+            },
+            {
+                "title": "Medley rock &amp; roll",
+                "file": "rock n roll.mp3"
+            },
+            {
+                "title": "Ti porto via con me (Jovanotti)",
+                "file": "ti porto via con me.mp3"
+            },
+            {
+                "title": "Me so &apos;mbriacato (Mannarino)",
+                "file": "me so mbriacato.mp3"
+            },
+            {
+                "title": "Scetate Vaj&#242; (Mannarino)",
+                "file": "scetate vajo.mp3"
+            },
+            {
+                "title": "Se mi rilasso collasso (Bandabard&#242;)",
+                "file": "se mi rilasso collasso.mp3"
+            },
+            {
+                "title": "La vita com&apos;&#232; (Max Gazz&#232;)",
+                "file": "la vita com&apos;&#232;.mp3"
+            },
+            {
+                "title": "Occidentali&apos;s karma (Francesco Gabbani)",
+                "file": ""
+            },
+            {
+                "title": "Svalutation (Francesco Gabbani)",
+                "file": ""
+            },
+            {
+                "title": "Medley cartoni animati",
+                "file": ""
+            },
+            {
+                "title": "Tanta voglia di lei (Pooh)",
+                "file": "tanta voglia di lei.mp3"
+            },
+            {
+                "title": "Pensiero (Pooh)",
+                "file": "pensiero.mp3"
+            },
+            {
+                "title": "A mano a mano (Rino Gaetano)",
+                "file": "a mano a mano.mp3"
+            },
+            {
+                "title": "Ricominciamo (Apr&#232;s La Classe)",
+                "file": "ricominciamo.mp3"
+            },
+            {
+                "title": "... e tanto altro",
+                "file": ""
+            }
+        ];
+    
 
 
-var songs = [
-    'La prima cosa bella (Nicola Di Bari)',
-    'L\'isola che non c\'&#232; (Edoardo Bennato)',
-    'Piccola stella senza cielo (Ligabue)',
-    'Messico e nuvole (Giuliano Palma)',
-    'Medley anni \'60',
-    'Medley donne',
-    'Medley napoletano',
-    'Su di noi (Pupo)',
-    'Gelato al cioccolato (Pupo)',
-    'Medley Battisti',
-    'Per colpa di chi (Zucchero)',
-    'Devil in me (Zucchero)',
-    'Medley rock & roll',
-    'Ti porto via con me (Jovanotti)',
-    'Me so \'mbriacato (Mannarino)',
-    'Scetate Vaj&#242; (Mannarino)',
-    'Se mi rilasso collasso (Bandabard&#242;)',
-    'La vita com\'&#232; (Max Gazz&#232;)',
-    'Occidentali\'s karma (Francesco Gabbani)',
-    'Svalutation (Francesco Gabbani)',
-    'Buonasera signorina (Fred Buscaglione)',
-    'Medley cartoni animati',
-    'Tanta voglia di lei (Pooh)',
-    'Pensiero (Pooh)',
-    'A mano a mano (Rino Gaetano)',
-    'Ricominciamo (Apr&#232;s La Classe)',
-    '... e tanto altro'
-]
+// var songs = [
+//     'Per colpa di chi (Zucchero)',
+//     'La prima cosa bella (Nicola Di Bari)',
+//     'L\'isola che non c\'&#232; (Edoardo Bennato)',
+//     'Piccola stella senza cielo (Ligabue)',
+//     'Messico e nuvole (Giuliano Palma)',
+//     'Medley anni \'60',
+//     'Medley donne',
+//     'Medley napoletano',
+//     'Su di noi (Pupo)',
+//     'Gelato al cioccolato (Pupo)',
+//     'Medley Battisti',
+//     'Devil in me (Zucchero)',
+//     'Medley rock & roll',
+//     'Ti porto via con me (Jovanotti)',
+//     'Me so \'mbriacato (Mannarino)',
+//     'Scetate Vaj&#242; (Mannarino)',
+//     'Se mi rilasso collasso (Bandabard&#242;)',
+//     'La vita com\'&#232; (Max Gazz&#232;)',
+//     'Occidentali\'s karma (Francesco Gabbani)',
+//     'Svalutation (Francesco Gabbani)',
+//     'Buonasera signorina (Fred Buscaglione)',
+//     'Medley cartoni animati',
+//     'Tanta voglia di lei (Pooh)',
+//     'Pensiero (Pooh)',
+//     'A mano a mano (Rino Gaetano)',
+//     'Ricominciamo (Apr&#232;s La Classe)',
+//     '... e tanto altro'
+// ]
 
 /* Loading */
 $(document).ready(function () {
@@ -652,25 +692,34 @@ $(document).ready(function () {
         $('#thumbnails').append(strImage);
     }
 
-    key = 'songs';
-    var tmpArray = dictionarySongs['songs'];
-    for (index = 0; index < tmpArray.length; ++index) {
-        var imgObj = tmpArray[index];
-        imgObj.key = key;
-        imgObj.player = '';
-        imgObj.playerid = 'audioplayer' + index;
-        if (imgObj.file != '') {
-            imgObj.file = base_audio_path + '/' + imgObj.file;
-            imgObj.player = template_player;
-        }
+    //key = 'songs';
+    var arraySongs = dictionarySongs['songs'];
+    var arrayFullSongs = dictionarySongs['fullSongs'];
+    var startIndexSongs = 0;
+    addSongs(arraySongs, "songsContainer", startIndexSongs);
+    addSongs(arrayFullSongs, "fullSongsContainer", startIndexSongs);
 
-        var strSongs = template_song.replace(/\#player\#/g, imgObj["player"]);
+    function addSongs(tmpArray, songsContainer)
+    {
+        for (index = 0; index < tmpArray.length; ++index) {
+            var imgObj = tmpArray[index];
+            imgObj.key = songsContainer;
+            imgObj.player = '';
+            imgObj.playerid = 'audioplayer' + index + startIndexSongs;
+            startIndexSongs++;
+            if (imgObj.file != '') {
+                imgObj.file = base_audio_path + '/' + imgObj.file;
+                imgObj.player = template_player;
+            }
 
-        for (keyImage in imgObj) {
-            var re = new RegExp("#" + keyImage + "#", "g");
-            strSongs = strSongs.replace(re, imgObj[keyImage])
+            var strSongs = template_song.replace(/\#player\#/g, imgObj["player"]);
+
+            for (keyImage in imgObj) {
+                var re = new RegExp("#" + keyImage + "#", "g");
+                strSongs = strSongs.replace(re, imgObj[keyImage])
+            }
+            $('#' + songsContainer).append(strSongs);
         }
-        $('#songsContainer').append(strSongs);
     }
 
     //var tagName = '';
