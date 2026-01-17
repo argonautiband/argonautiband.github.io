@@ -6,6 +6,7 @@
 <html class="no-js">
  <!--<![endif]-->
 <head>
+    <script type="text/javascript" src="https://embeds.iubenda.com/widgets/84feb815-6db6-11ee-8bfc-5ad8d8c564c0.js"></script>	
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Argonauti Band</title>
@@ -34,6 +35,7 @@
     <link rel="stylesheet" href="styles/colors/color-red.css">
     <script src="scripts/vendor/cookies-enabler.min.js"></script>
     <script src="scripts/vendor/modernizr.min.js"></script>
+	<script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>	
 </head>
 <body data-spy="scroll" data-target="#navbar-muziq" data-offset="80">
 
@@ -489,9 +491,11 @@
                 <!--<li><a href="#">disclaimer</a></li>
                 <li><a href="#">terms & conditions</a></li>-->
                 <li>
-                    <a href="//www.iubenda.com/privacy-policy/86707764" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a>
+                    <a href="https://www.iubenda.com/privacy-policy/86707764" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a>
                 </li>
-                <li style="display: inline-block;vertical-align: top;margin-left:5px;"><a href="/cookiepolicy.html" target="_blank">Cookie Policy</a></li>
+                <li style="display: inline-block;vertical-align: top;margin-left:5px;">
+					<a href="https://www.iubenda.com/privacy-policy/86707764/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a>
+				</li>
             </ul>
         </div>
     </footer>
@@ -523,51 +527,6 @@
 	
 	  gtag('config', 'G-V1ZCM7BCR9');
 	</script>
-    <script id="my-ce-banner-html" type="text/plain">
-        <div style="text-align:center;position: fixed;bottom: 0;left: 0;right: 0;padding:4px;z-index:10000;background-color:black;vertical-align:middle;">
-            <p style="font-size:14px;color:white;line-height:14px;">
-                Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza sul nostro sito. Continuando a navigare ne accetti l'utilizzo.
-                <a href="#" class="ce-accept btn btn-invert" style="width:30px;height:20px;padding:0px;line-height:18px;border-width:1px;font-weight:500;font-size:12px;">OK</a>
-                <br />
-                <span style="font-size:smaller"><a href="/cookiepolicy.html" target="_blank">Cookie Policy</a></span>
-            </p>
-        </div>
-    </script>
-    <script>
-        COOKIES_ENABLER.init(
-            {
-                scriptClass: 'ce-script',
-                iframeClass: 'ce-iframe',
 
-                acceptClass: 'ce-accept',
-                dismissClass: 'ce-dismiss',
-                disableClass: 'ce-disable',
-
-                bannerClass: 'ce-banner',
-                bannerHTML: document.getElementById('my-ce-banner-html').innerHTML,
-
-                eventScroll: true,
-                scrollOffset: 100,
-
-                clickOutside: false,
-
-                cookieName: 'ce-cookie',
-                cookieDuration: '365',
-                wildcardDomain: false,
-
-                iframesPlaceholder: true,
-                iframesPlaceholderHTML:
-                    '<p>To view this content you need to'
-                    + '<a href="#" class="ce-accept">Enable Cookies</a>'
-                    + '</p>',
-                iframesPlaceholderClass: 'ce-iframe-placeholder',
-
-                // Callbacks
-                onEnable: '',
-                onDismiss: '',
-                onDisable: ''
-            }
-        );
-    </script>
 </body>
 </html>
