@@ -4795,3 +4795,25 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 {
     cursor: pointer;
 }
+
+/* 1. Nascondiamo SEMPRE il widget USA (quello rettangolare) */
+.iub__us-widget, 
+#iubenda-cs-uspr-widget {
+    display: none !important;
+}
+
+/* 2. Gestione del bottone rotondo (quello che appare allo scroll) */
+/* Di base è nascosto */
+.iubenda-tp-btn {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    transition: all 0.4s ease !important;
+}
+
+/* Quando arrivi in fondo pagina (aggiunta classe via JS), appare */
+body.show-cookie-btn .iubenda-tp-btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+}
